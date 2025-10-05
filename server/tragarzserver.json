@@ -1,0 +1,7 @@
+{
+  "port": 8080,
+  "password": "admin123",
+  "dataDir": "./projects",
+  "maxProjectSize": "1GB",
+  "allowedHosts": ["*"]
+}

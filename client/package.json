@@ -1,0 +1,39 @@
+{
+  "name": "tragarz",
+  "version": "1.0.0",
+  "description": "Tragarz file synchronization client CLI",
+  "main": "src/cli.js",
+  "bin": {
+    "tragarz": "./bin/tragarz"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "echo 'Ready to publish Tragarz CLI'"
+  },
+  "keywords": ["file-sync", "cli", "client", "synchronization", "tragarz", "porter", "carrier"],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/tragarz.git"
+  },
+  "homepage": "https://github.com/yourusername/tragarz#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/tragarz/issues"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "axios": "^1.6.2",
+    "form-data": "^4.0.0",
+    "globby": "^14.0.0",
+    "ignore": "^5.3.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1",
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

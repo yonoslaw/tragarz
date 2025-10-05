@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(find:*)",
+      "Bash(npm view:*)",
+      "Bash(curl -X POST http://patryk132.mikrus.xyz/webhook-test/d55ff4a1-913d-4620-9351-cf0cbc38dc75 -H \"Content-Type: application/json\" -d '{\"\"pid\"\":1001,\"\"fid\"\":\"\"Fish.L1 Smallmouth bass\"\"}')",
+      "Read(//Users/yonek/Documents/GitHubPersonal/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

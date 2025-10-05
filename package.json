@@ -1,0 +1,46 @@
+{
+  "name": "tragarz-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Tragarz file synchronization system - monorepo",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "install:all": "npm install && npm run install:client && npm run install:server",
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "start:server": "cd server && npm start",
+    "link:client": "cd client && npm link",
+    "publish:client": "cd client && npm publish",
+    "publish:server": "cd server && npm publish",
+    "test": "npm run test:client && npm run test:server",
+    "test:client": "cd client && npm test",
+    "test:server": "cd server && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonoslaw/tragarz.git"
+  },
+  "keywords": [
+    "file-sync",
+    "cli",
+    "server",
+    "synchronization",
+    "tragarz",
+    "porter",
+    "monorepo"
+  ],
+  "author": "yonoslaw",
+  "license": "MIT",
+  "homepage": "https://github.com/yonoslaw/tragarz#readme",
+  "bugs": {
+    "url": "https://github.com/yonoslaw/tragarz/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
