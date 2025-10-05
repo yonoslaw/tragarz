@@ -105,7 +105,3 @@ Found a bug? Have a feature request? Please open an issue on GitHub.
 ## ⭐ Show your support
 
 Give a ⭐️ if this project helped you!
-
----
-
-**Made with ❤️ by Polish developers for the global community**
