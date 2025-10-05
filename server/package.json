@@ -1,16 +1,16 @@
 {
   "name": "tragarz-server",
   "version": "1.0.0",
-  "description": "Tragarz file synchronization server",
+  "description": "Server component for Tragarz - lightweight Git alternative for solo developers",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["file-sync", "server", "api"],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["git-alternative", "file-sync", "server", "api", "solo-developer", "backup", "tragarz", "lightweight"],
+  "author": "yonoslaw",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
     "multer": "^1.4.5-lts.1",

@@ -1,14 +1,42 @@
 # 🎒 Tragarz
 
-**Tragarz** (Polish for "porter/carrier") is a file synchronization system that helps you transport files between different locations with ease.
+**Tragarz** (Polish for "porter/carrier") is a super lightweight alternative to Git for solo developers and simple file synchronization.
+
+## 💡 Why Tragarz?
+
+**Git is overkill for simple file sync.** If you're working alone and just need to:
+- ✅ Sync files between your laptop and desktop
+- ✅ Keep backups of your projects
+- ✅ Share files with clients without Git complexity
+- ✅ Have simple "save points" (snapshots) without Git branches/commits
+
+**Tragarz is your answer!** No staging area, no merge conflicts, no Git learning curve.
 
 ## 📦 What is Tragarz?
 
 Tragarz consists of two main components:
-- **Client**: A CLI tool for syncing files to/from a server
-- **Server**: A lightweight HTTP server for managing projects and files
+- **Client**: Simple CLI tool - just `push`, `pull`, and `memory` (snapshots)
+- **Server**: Lightweight HTTP server (way simpler than Git server setup)
 
-Perfect for developers who need to sync code between machines, teams sharing project files, or anyone who wants a simple file sync solution.
+**Perfect for:**
+- 👨‍💻 Solo developers who find Git too complex for simple sync
+- 🎨 Designers sharing files with clients
+- 📱 Anyone syncing projects between devices
+- 🚀 Quick prototyping without Git overhead
+
+## 🆚 Tragarz vs Git
+
+| Feature | Git | Tragarz |
+|---------|-----|---------|
+| **Learning curve** | Steep (branches, staging, merging) | Simple (3 commands) |
+| **Solo dev workflow** | `git add`, `git commit`, `git push` | `tragarz push` |
+| **Conflicts** | Manual merge conflicts | Auto-overwrite or backup |
+| **Server setup** | Complex (bare repos, hooks) | `npm start` |
+| **File sync** | Designed for teams/versions | Designed for file transport |
+| **Snapshots** | Complex commits/tags | `tragarz memory "description"` |
+
+**Use Tragarz when:** You need simple file sync, not version control.
+**Use Git when:** You need professional version control for teams.
 
 ## 🚀 Quick Start
 

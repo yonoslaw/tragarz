@@ -1,7 +1,7 @@
 {
   "name": "tragarz",
   "version": "1.0.0",
-  "description": "Tragarz file synchronization client CLI",
+  "description": "Super lightweight Git alternative for solo developers - simple file sync CLI tool",
   "main": "src/cli.js",
   "bin": {
     "tragarz": "./bin/tragarz"
@@ -11,16 +11,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "echo 'Ready to publish Tragarz CLI'"
   },
-  "keywords": ["file-sync", "cli", "client", "synchronization", "tragarz", "porter", "carrier"],
-  "author": "Your Name <your.email@example.com>",
+  "keywords": ["git-alternative", "file-sync", "solo-developer", "simple-sync", "cli", "backup", "tragarz", "lightweight", "no-git"],
+  "author": "yonoslaw",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/tragarz.git"
+    "url": "git+https://github.com/yonoslaw/tragarz.git"
   },
-  "homepage": "https://github.com/yourusername/tragarz#readme",
+  "homepage": "https://github.com/yonoslaw/tragarz#readme",
   "bugs": {
-    "url": "https://github.com/yourusername/tragarz/issues"
+    "url": "https://github.com/yonoslaw/tragarz/issues"
   },
   "dependencies": {
     "commander": "^11.1.0",

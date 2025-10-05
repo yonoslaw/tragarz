@@ -2,7 +2,7 @@
   "name": "tragarz-monorepo",
   "private": true,
   "version": "1.0.0",
-  "description": "Tragarz file synchronization system - monorepo",
+  "description": "Super lightweight alternative to Git for solo developers - simple file sync without Git complexity",
   "workspaces": [
     "client",
     "server"
@@ -26,13 +26,15 @@
     "url": "git+https://github.com/yonoslaw/tragarz.git"
   },
   "keywords": [
+    "git-alternative",
     "file-sync",
-    "cli",
-    "server",
-    "synchronization",
+    "solo-developer",
+    "simple-sync",
+    "backup",
     "tragarz",
-    "porter",
-    "monorepo"
+    "lightweight",
+    "cli",
+    "no-git"
   ],
   "author": "yonoslaw",
   "license": "MIT",
