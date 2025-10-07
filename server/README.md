@@ -5,13 +5,13 @@ Tragarz Server to komponent serwerowy systemu synchronizacji plików Tragarz.
 ## Instalacja
 
 ```bash
-cd yonhub-server
+cd tragarz-server
 npm install
 ```
 
 ## Konfiguracja
 
-Serwer używa pliku `yonhubserver.json` do konfiguracji. Domyślne ustawienia:
+Serwer używa pliku `tragarz.json` do konfiguracji. Domyślne ustawienia:
 
 ```json
 {
@@ -59,7 +59,7 @@ npm run dev
 ## Struktura katalogów
 
 ```
-yonhub-server/
+tragarz-server/
 ├── src/
 │   ├── server.js          # Główny serwer
 │   ├── auth.js           # Uwierzytelnianie
