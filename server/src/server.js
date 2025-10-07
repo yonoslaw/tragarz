@@ -21,7 +21,7 @@ class TragarzServer {
     }
 
     async loadConfig() {
-        const configPath = path.join(__dirname, '..', 'tragarzserver.json');
+        const configPath = path.join(process.cwd(), 'tragarzserver.json');
 
         if (await fs.pathExists(configPath)) {
             this.config = await fs.readJson(configPath);

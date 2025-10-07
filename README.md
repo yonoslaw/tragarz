@@ -83,7 +83,23 @@ npm link          # Install globally as 'tragarz'
 ```bash
 cd server
 npm install
-npm start         # Start server on port 8080
+npm link          # Install globally as 'tragarz-server'
+```
+
+### Server Installation & Usage
+```bash
+# Install globally
+npm install -g tragarz-server
+
+# Initialize server in your directory
+cd ~/my-tragarz-server
+tragarz-server init
+
+# (Optional) Edit configuration
+nano tragarzserver.json
+
+# Start the server
+tragarz-server start
 ```
 
 ## 📚 Documentation

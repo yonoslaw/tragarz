@@ -1,0 +1,25 @@
+# Test data
+projects/
+
+# Development files
+*.log
+.env
+.env.local
+
+# Test files
+test/
+tests/
+*.test.js
+
+# Documentation (keep README.md)
+PLAN.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

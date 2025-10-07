@@ -1,8 +1,11 @@
 {
   "name": "tragarz-server",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Server component for Tragarz - lightweight Git alternative for solo developers",
   "main": "src/server.js",
+  "bin": {
+    "tragarz-server": "bin/tragarz-server.js"
+  },
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
